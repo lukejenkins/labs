@@ -1,6 +1,14 @@
 #
 
-## Instructions
+## Hardware Required
+
+* The USB drive with Kali Linux provided to you at the start of the course.
+* The USB Wi-Fi adapter provided to you at the start of the course.
+* A laptop with at least two USB ports that can boot the Kali Linux image
+* A GPS location source that works with GPSd
+  * One option is to search your favorite e-commerce site for "vk-172 usb gps". The cost should be about $10.
+
+If you need assistance with borrowing a laptop or a USB GPS adapter, please speak with your instructor. I do not want the extra hardware to be a stumbling block.
 
 ## Directions
 
