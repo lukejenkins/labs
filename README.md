@@ -4,6 +4,7 @@ These are various lab assignments I've created for a WLAN/Cybersecurity class th
 
 * [Kali Quick Test](kali-quick-test/README.md)
 * [Wardriving 101 with Kismet](wardiving-101-kismet/README.md)
+* [Wardriving 101 with Wigle](wardriving-101-wigle/README.md)
 
 ## License
 
