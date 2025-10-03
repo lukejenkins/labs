@@ -56,3 +56,37 @@ Select the OpenWRT option from the Ventoy menu.
 ![0042.png](images/0042.png)
 ![0043.png](images/0043.png)
 ![0044.png](images/0044.png)
+
+## Deliverables
+
+### Question 1
+
+This lab requires multiple computers, so you might need to work with a lab partner. If you do, please include their name in the LMS.
+
+### Question 2
+
+After you have set up your open SSID, take a screen shot of the "Wireless Overview" page of the OpenWrt WebUI. Upload that screenshot to the LMS.
+
+Here is an example of what I'm looking for:
+![deliverables-q2.png](images/deliverables-q2.png)
+
+### Question 3
+
+After you have set up your open SSID, capture beacons from it using Kismet. Take a screenshot of the "Wi-Fi (802.11)" section of the Device Info page for your AP. Make sure that it includes the SSID, the Encryption type, the Channel, and the 802.11d Country. Upload that screenshot to the LMS.
+
+Here is an example of what I'm looking for:
+![deliverables-q3.png](images/deliverables-q3.png)
+
+### Question 4
+
+After you have set up your WPA2 SSID, take a screen shot of the "Wireless Overview" page of the OpenWrt WebUI. Upload that screenshot to the LMS.
+
+Here is an example of what I'm looking for:
+![deliverables-q4.png](images/deliverables-q4.png)
+
+### Question 5
+
+After you have set up your WPA2 SSID, capture beacons from it using Kismet. Take a screenshot of the "Wi-Fi (802.11)" section of the Device Info page for your AP. Make sure that it includes the SSID, the Encryption type, the Channel, and the 802.11d Country. Upload that screenshot to the LMS.
+
+Here is an example of what I'm looking for:
+![deliverables-q5.png](images/deliverables-q5.png)
