@@ -1,26 +1,42 @@
-# Setting up a basic SSID in OpenWRT
+# Setting up a basic SSID in OpenWrt
 
 ## Introduction
 
-We're going to try out OpenWRT, a popular open-source firmware for routers and embedded devices. We're going to go a bit off of the beaten path by using an x86 computer to boot OpenWRT via Ventoy.
+We're going to try out OpenWrt, a popular open-source firmware for routers and embedded devices. We're going to go a bit off of the beaten path by using an x86 computer to boot OpenWrt via Ventoy.
 
-You will need to get the OpenWRT image for the course from the instructor.
+You will need to get the OpenWrt image for the course from the instructor.
 
 ## Directions
 
-After you have the OpenWRT image on your USB drive, plug it into your computer and boot from it. On the lab machines, you'll need to hit F12 during the boot process to select the USB drive as the boot device.
+After you have the OpenWrt image on your USB drive, plug it into your computer and boot from it. On the computer, you'll need to hit a key on bootup to go into the boot menu (F12 on our lab machines). Once in that menu, select the USB drive as the boot device.
 
-Select the OpenWRT option from the Ventoy menu.
+Select the OpenWrt option from the Ventoy menu and hit enter. You will see a boot menu for OpenWrt; you can either hit enter on the default option or wait for the timer to expire. You will see the OpenWrt boot messages scroll by. After a minute or so, the messages will stop scrolling and you might see a login prompt. If you do not, you can hit enter to bring it up.
+
+We actually do not need to use the OpenWrt command line for this lab, so you can ignore the login prompt. Instead, plug a second computer into the network port of the computer running OpenWrt. The computer running OpenWrt will act as a DHCP server and assign an IP address to the second computer. On the second computer, open a web browser and go to <http://192.168.1.1>. You should see the OpenWrt WebUI login page. There is no password set by default, so just hit enter or click the "Log in" button.
 
 ![0001.png](images/0001.png)
+
+You will be presetned with the default Status page of OpenWrt. At the top you will see a banner asking you to set a root password. If we don't set one, we will have this banner at the top of every page we visit. Click on the "Go to password configuration button.
+
 ![0002.png](images/0002.png)
+
+Set a password and click the "Save & Apply" button. You will be returned to the Status page, and the banner will be gone.
+
 ![0003.png](images/0003.png)
 ![0004.png](images/0004.png)
 ![0005.png](images/0005.png)
+
+Now we're back to the Status page. From here, click on the "Network" menu at the top and select "Wireless" from the dropdown.
+
 ![0006.png](images/0006.png)
 ![0007.png](images/0007.png)
+
+This page shows all of the Wi-Fi radios in the system. There might be one or more. The radio for the Panda Wireless adapter provided for the course should have a label of "Sabrent NTWLAC 802.11ac/b/g/n". In my example screenshot, it is the second radio; which has the label "radio1". We want to modify the SSID for this radio, so click on the "Edit" button for the SSID directly after the radio we've been discussing.
+
 ![0008.png](images/0008.png)
-![0009.png](images/0009.png)
+
+This is the configuration page for the SSID.
+
 ![0010.png](images/0010.png)
 ![0011.png](images/0011.png)
 ![0012.png](images/0012.png)
@@ -29,9 +45,14 @@ Select the OpenWRT option from the Ventoy menu.
 ![0015.png](images/0015.png)
 ![0016.png](images/0016.png)
 ![0017.png](images/0017.png)
+
+ The default configuration is to create an SSID named "OpenWrt". Change the "ESSID" field from OpenWrt to something unique, like "cybr3720-\<your-last-name\>-open".
+
 ![0018.png](images/0018.png)
 ![0019.png](images/0019.png)
-![0020.png](images/0020.png)
+
+Next click on the Wireless Security tab. This is where we can set up encryption for the SSID. For now, leave it as "No Encryption". Click the "Save" button at the bottom of the page.
+
 ![0021.png](images/0021.png)
 ![0022.png](images/0022.png)
 ![0023.png](images/0023.png)
