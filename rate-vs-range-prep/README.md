@@ -13,7 +13,7 @@ For Openwrt APs running 24.10, use the following commands:
 ```bash
 opkg update
 opkg install librespeed-go
-``` 
+```
 
 ### librespeed-go - Openwrt Newer than 24.10
 
@@ -77,6 +77,7 @@ service librespeed-go restart
 For each AP you're going to set up for the students, you'll need to make some changes.
 
 The high level list of things to customize:
+
 * Create and configure an SSID
 * Set IP ranges to be unique per AP so that the testing fails if a student is still connected to a previous AP
 * Change the title page of the speed test server
@@ -148,15 +149,12 @@ sed -i 's/LibreSpeed Example/WLAN-Lab-range2 LibreSpeed/g' /www/librespeed/index
 #sed -i 's/LibreSpeed Example/WLAN-Lab-range3 LibreSpeed/g' /www/librespeed/index.html
 ```
 
-
 ## Future improvements
 
 * Add WLAN stats to the speedtest page
   * Currently the lab needs the device to generate the WLAN stats (RSSI, data rates, retries, etc.). It would be more approachable if it was done on the AP.
 * URL isn't easy to remember or access. Make it easier, perhaps captive portal style.
 * Limit APs to a single active speed test at a time. Auto start the speedtest when it is a user's turn.
-
-
 
 ## References and Further Reading
 

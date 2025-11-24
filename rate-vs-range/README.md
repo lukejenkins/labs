@@ -1,8 +1,7 @@
 # Rate vs. Range Lab
 
-Version 4.x
+Version 4.0
 
-<lab guide goes here>
-I changed gears again after the BeaconBits were too weak (signal-wise and CPU-wise). We used APs running Openwrt and librespeed-go and wavemon.
+## Introduction
 
-I'll add more details soon.
+In this lab, we will be exploring the relationship between data rate and range in wireless networks. I will have multiple APs set up for each student to perform testing against. We will then measure the throughput and data rates used at various distances from the access point using a web-based speed test and the wavemon application.
