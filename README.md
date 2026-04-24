@@ -9,6 +9,7 @@ These are various lab assignments I've created for a WLAN/Cybersecurity class th
 ## Notes for preparing for labs
 
 * [Preparing an OpenWRT Image with ImageBuilder](openwrt-prep/README.md)
+* [Preparing a Kali Disk Image for Ventoy](kali-prep/README.md)
 
 ## License
 
